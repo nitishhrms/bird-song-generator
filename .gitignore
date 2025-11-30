@@ -1,0 +1,51 @@
+# Large model files (share separately)
+experiments_colab/model_final.pt
+experiments_colab/*.pt
+*.pt
+*.pth
+
+# Dataset (friends can download themselves)
+data/
+*.wav
+
+# Generated analysis outputs (friends will generate)
+model_analysis/
+presentation_analysis/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training outputs (except samples)
+experiments/
+experiments_*/
+!experiments_colab/sample_*.wav
+!experiments_colab/sample_*_spec.png
+
+# Temporary files
+tmp/
+temp/
